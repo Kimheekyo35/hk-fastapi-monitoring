@@ -20,6 +20,6 @@ pipeline {
             steps{
                 sh "docker exec -i hk-fastapi-monitoring python train.py"
             }
-        }
+        } 
 	}
 }
